@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lucida Sans';
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: cadetblue;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"]
+input[type="email"]
+input[type=password],
+select,
+textarea{
+    border: 1px solid rgb(150, 91, 101);
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input [type="radio"],
+input [type="checkbox"]{
+    margin-right: 5px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+textarea{
+    font-family: 'Times New Roman';
+    background-color: rgb(150, 219, 219);
+}
+
+button{
+    background-color: lightcoral;
+    color: rgb(241, 221, 231);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+button[type="reset"]{
+    background-color: teal;  
+}
+
+h1{
+    font-family: 'Lucida Sans';
+}
+label{
+    font-family: 'Times New Roman';
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    font-family: Georgia;
+}
